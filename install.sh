@@ -13,7 +13,7 @@ installTheme(){
     echo "Installing theme..."
     cd /var/www/pterodactyl
     rm -r ThemaVallzoffc
-    git clone https://github.com/Angelillo15/MinecraftPurpleTheme.git
+    git clone https://github.com/VallzHost/thema-/main
     cd ThemaVallzoffc
     rm /var/www/pterodactyl/resources/scripts/VallzoffcThema.css
     rm /var/www/pterodactyl/resources/scripts/index.tsx
@@ -47,7 +47,7 @@ installThemeQuestion(){
 }
 
 repair(){
-    bash <(curl https://raw.githubusercontent.com/Angelillo15/MinecraftPurpleTheme/main/repair.sh)
+    bash <(curl https://raw.githubusercontent.com/VallzHost/Thema-/main/repair.sh)
 }
 
 restoreBackUp(){
